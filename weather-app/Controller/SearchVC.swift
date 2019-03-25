@@ -26,8 +26,12 @@ class SearchVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         guard let city = cityTextField.text  else { return }
         delegate?.userDidChooseCity(forCity: city)
         Service.instance.getWeather(forCity: city) { (success) in
-            self.currentCity = Service.instance.getCurrentCity()
-            self.cityTableView.reloadData()
+            if success {
+                self.currentCity = Service.instance.getCurrentCity()
+                self.cityTableView.reloadData()
+            } else {
+                return
+            }
         }
     }
     

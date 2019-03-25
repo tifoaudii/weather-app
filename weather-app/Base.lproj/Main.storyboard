@@ -46,7 +46,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20°" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Scm-9V-0cz">
-                                <rect key="frame" x="224" y="354" width="150" height="89"/>
+                                <rect key="frame" x="244" y="354" width="150" height="89"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="89" id="NSi-gw-qy8"/>
                                     <constraint firstAttribute="width" constant="150" id="zN8-Iq-qgM"/>
@@ -92,7 +92,7 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="rLV-lD-fk8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0wV-bK-c6R"/>
-                            <constraint firstAttribute="trailing" secondItem="Scm-9V-0cz" secondAttribute="trailing" constant="40" id="6mI-8G-YLd"/>
+                            <constraint firstAttribute="trailing" secondItem="Scm-9V-0cz" secondAttribute="trailing" constant="20" id="6mI-8G-YLd"/>
                             <constraint firstAttribute="trailing" secondItem="aPl-yh-eyT" secondAttribute="trailing" constant="20" id="DMX-4b-PLt"/>
                             <constraint firstItem="aPl-yh-eyT" firstAttribute="top" secondItem="dCa-gY-vJU" secondAttribute="bottom" constant="140" id="L76-f9-9O6"/>
                             <constraint firstItem="NCW-ED-fCw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="RvM-dH-HvG"/>

@@ -188,10 +188,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Batu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CpF-Ud-ZcP">
-                                                    <rect key="frame" x="20" y="67" width="120" height="39"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="120" id="eZk-Mr-sGk"/>
-                                                    </constraints>
+                                                    <rect key="frame" x="20" y="67" width="344" height="39"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                                     <color key="textColor" red="1" green="0.98823529409999999" blue="0.98431372549999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <nil key="highlightedColor"/>
@@ -210,6 +207,7 @@
                                                 <constraint firstItem="FJB-iC-Rt0" firstAttribute="top" secondItem="VLS-sp-X7B" secondAttribute="top" id="44t-o1-Ldy"/>
                                                 <constraint firstItem="BG7-XQ-vwj" firstAttribute="leading" secondItem="VLS-sp-X7B" secondAttribute="leading" constant="20" id="8Lh-qT-7Pq"/>
                                                 <constraint firstAttribute="trailing" secondItem="FJB-iC-Rt0" secondAttribute="trailing" id="B9Q-xh-aOC"/>
+                                                <constraint firstAttribute="trailing" secondItem="CpF-Ud-ZcP" secondAttribute="trailing" constant="50" id="HFH-ww-pcQ"/>
                                                 <constraint firstItem="CpF-Ud-ZcP" firstAttribute="leading" secondItem="VLS-sp-X7B" secondAttribute="leading" constant="20" id="NgO-cC-smd"/>
                                                 <constraint firstItem="BG7-XQ-vwj" firstAttribute="top" secondItem="CpF-Ud-ZcP" secondAttribute="bottom" constant="8" id="fup-Tb-C6C"/>
                                                 <constraint firstItem="FJB-iC-Rt0" firstAttribute="leading" secondItem="VLS-sp-X7B" secondAttribute="leading" id="m73-hu-ORk"/>
